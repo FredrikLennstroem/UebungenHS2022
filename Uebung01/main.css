@@ -1,0 +1,170 @@
+@charset "utf-8";
+@font-face {
+    font-family: "poppins";
+    src: url('/fonts/Poppins-Light.ttf') format('truetype');
+    }
+html {
+font-family: Arial, Helvetica, sans-serif;
+}
+header {
+background-color: seagreen;
+font-family: "poppins", Arial, Helvetica, sans-serif;
+margin: 0px;
+text-align: center;
+
+}
+nav  {
+padding: 5px; 
+border-bottom: #333333 solid 2px; 
+}
+nav ul{
+display: flex;
+padding: 10px;
+font-size: 18pt;
+align-items: stretch;
+justify-content: space-evenly;
+margin: 0;
+padding: 0;
+}
+nav ul li{
+display: inline-block;
+position: relative;
+flex: 0 1 auto;
+list-style-type: none;
+}
+nav ul li a{
+text-decoration: none;
+color: #333333;
+padding: 5px;
+}
+nav ul li a:hover {
+background-color: #333333;
+color: white;
+text-decoration: none;
+border-radius: 10px;
+border: #333333 solid 0px;
+border-bottom: #333333 solid 2px;
+}
+aside{
+width: 25%;
+margin-left: 10px;
+margin-right: 10px;
+border-right: solid #333333 2px;
+}
+main{
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+footer{
+border-top: #333333 solid 2px;
+
+}
+footer ul{
+    display: flex;
+    padding: 10px;
+    font-size: 12pt;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    }
+footer ul li{
+    list-style-type: none;
+}
+/*Classes*/
+.map{
+    clear: both;
+    display: block;
+    width: 100%;
+}
+.news_list{
+    list-style-type: none;
+}
+.news_bild{
+    clear: left;
+    display: flex;
+    width: 70%;
+}
+.select {
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    border: #333333 solid 0px;
+    border-bottom: #333333 solid 2px;  
+}
+.top{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+.layout {
+    margin-top: 130px;
+    display: flex;
+}
+.home_bild{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 200px;
+}
+table{
+    text-align: center;
+}
+ .red:hover{
+     background-color: red;
+ }
+ .white:hover{
+     background-color: white;
+ }
+ .cyan:hover{
+     background-color: cyan;
+ }
+ .silver:hover{
+     background-color: silver;
+ }
+ .blue:hover{
+     background-color: blue;
+ }
+ .gray:hover{
+     background-color:gray;
+ }
+ .darkblue:hover{
+     background-color: darkblue;
+ }
+ .black:hover{
+     color: white;
+     background-color: black;
+ }
+ .lightblue:hover{
+     background-color: lightblue;
+ }
+ .orange:hover{
+     background-color: orange;
+ }
+ .purple:hover{
+     background-color: purple;
+ }
+ .brown:hover{
+     background-color: brown;
+ }
+ .yellow:hover{
+     background-color: yellow;
+ }
+ .maroon:hover{
+     background-color: maroon;
+ }
+ .lime:hover{
+     background-color: lime;
+ }
+ .green:hover{
+     background-color: green;
+ }
+ .magenta:hover{
+     background-color: magenta;
+ }
+ .olive:hover{
+     background-color: olive;
+ }
